@@ -1,0 +1,12 @@
+PyPDF2
+textract
+nltk
+docx2txt
+contractions
+inflect
+pdfminer.six
+gensim
+autocorrect
+requests
+nltk
+

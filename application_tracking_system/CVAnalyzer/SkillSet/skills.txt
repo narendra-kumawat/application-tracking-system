@@ -1,0 +1,19 @@
+gap
+Python
+ReactJs
+Java
+JSP
+Scala
+Big Data
+PHP
+Java Core
+Go
+Elixar
+Spark
+Pig
+Hive
+MapReduce
+Cassendra
+MongoDb
+Firebase
+PostgreSQL

@@ -1,0 +1,169 @@
+{
+	"info": {
+		"_postman_id": "a1171fb1-caef-4981-b86f-34cbd4c3b4ca",
+		"name": "application-tracking-system",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "checkAPI",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"data\":\"something \"\n}"
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/cvanalyzer/checkapi",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"cvanalyzer",
+						"checkapi"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "docx",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"skillset\": [\"gap\",\"python\"],\n\t\"file_name\":\"180517_Vasanthi Kasinathan.docx\"\n}"
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/cvanalyzer/docx",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"cvanalyzer",
+						"docx"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "pdf",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"skillset\": [\"gap\",\"python\"],\n\t\"file_name\":\"Resume --Rohini Prakash.pdf\"\n}"
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/cvanalyzer/pdf",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"cvanalyzer",
+						"pdf"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "apply-for-job",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"Name\": \"Person\",\n\t\"Applying for\":\"MLE\",\n\t\"Stage\": \"Decision Needed\",\n\t\"Email Address\":\"person@gmail.com\",\n\t\"Phone\":\"9529559201\"\n}\t"
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/cvanalyzer/apply-for-job",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"cvanalyzer",
+						"apply-for-job"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "job-description",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t \"Required Experience\": \"At least 7 years of work as a mascot at a professional level, or 3 years of work as a mascot at a professional level and an M.A. in Mascot Arts.\",\n    \"Name\": \"Lead Mascot\",\n    \"Description\": \"Represents entire team. Responsible for training other mascots.\",\n    \"Applying for position\": [\n      \"recSprJ6wVb3wtVtD\",\n      \"recdVfVb6Dj7u5A5N\"\n    ]\n}"
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/cvanalyzer/job-description",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"cvanalyzer",
+						"job-description"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
