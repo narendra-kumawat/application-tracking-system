@@ -9,4 +9,7 @@ gensim
 autocorrect
 requests
 nltk
-
+docx2txt==0.6
+chardet==3.0.2
+django
+djangorestframework
